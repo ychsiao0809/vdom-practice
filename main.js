@@ -20,8 +20,8 @@ const createVApp = (count) => createElement('div', {
         createElement('input', {
             attrs: {
                 type: 'button',
-                onclick: 'location.href=\'https://www.youtube.com/watch?v=9bFgewO1F6M\'',
-                value: '深夜の歌放送！',
+                onclick: 'location.href=\'https://www.youtube.com/watch?v=IVJLruuWw6w\'',
+                value: 'HOHOHO',
             },            
         })
     ],

@@ -7,8 +7,7 @@ const renderElem = ({ tagName, attrs, children }) => {
     }
     // set h
     for (const child of children) {
-        const $child = render(child);
-        $el.appendChild($child);
+        $el.appendChild(render(child));
     }
     return $el;
 }
